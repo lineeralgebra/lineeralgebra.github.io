@@ -1,0 +1,34 @@
+➜  baby2 cat login.vbs 
+Sub MapNetworkShare(sharePath, driveLetter)
+    Dim objNetwork
+    Set objNetwork = CreateObject("WScript.Network")    
+  
+    ' Check if the drive is already mapped
+    Dim mappedDrives
+    Set mappedDrives = objNetwork.EnumNetworkDrives
+    Dim isMapped
+    isMapped = False
+    For i = 0 To mappedDrives.Count - 1 Step 2
+        If UCase(mappedDrives.Item(i)) = UCase(driveLetter & ":") Then
+            isMapped = True
+            Exit For
+        End If
+    Next
+    
+    If isMapped Then
+        objNetwork.RemoveNetworkDrive driveLetter & ":", True, True
+    End If
+    
+    objNetwork.MapNetworkDrive driveLetter & ":", sharePath
+    
+    If Err.Number = 0 Then
+        WScript.Echo "Mapped " & driveLetter & ": to " & sharePath
+    Else
+        WScript.Echo "Failed to map " & driveLetter & ": " & Err.Description
+    End If
+    
+    Set objNetwork = Nothing
+End Sub
+
+MapNetworkShare "\\dc.baby2.vl\apps", "V"
+MapNetworkShare "\\dc.baby2.vl\docs", "L"

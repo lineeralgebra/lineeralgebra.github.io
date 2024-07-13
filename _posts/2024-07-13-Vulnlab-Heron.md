@@ -5,7 +5,7 @@ categories: [Active-Directory]
 tags: [sliver, socks5, gpp-decyrpt, web.config, WriteAccountRestrictions, DACL-Abuse, KeyTabExtract]     # TAG names should always be lowercase
 ---
 
-![alt text](../assets/images/Heron_slide.png)
+![alt text](../assets/images/heron_slide.png)
 # Initial enumeration
 
 hosts:

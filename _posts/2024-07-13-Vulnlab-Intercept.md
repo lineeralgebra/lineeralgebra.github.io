@@ -2,7 +2,7 @@
 title: Vulnlab-Intercept
 date: 2024-07-12 02:07:00 +/-TTTT
 categories: [Active-Directory]
-tags: [ntlm_theft, Ldap-Signing-Not-Enforced!, ntlmrelayx, dnstool, petitpotam, ESC7]     # TAG names should always be lowercase
+tags: [ntlm_theft, Ldap-Signing-Not-Enforced!, ntlmrelayx,]     # TAG names should always be lowercase
 ---
 
 ![alt text](../assets/images/intercept_slide.png)

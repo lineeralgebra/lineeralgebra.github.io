@@ -267,7 +267,7 @@ lets create new files: Right Click on Source Files -> Add -> New Item -> give it
     RunData ENDP
     END
 
-![img-description]/(assets/images/Ekran Görüntüsü (44).png)
+![img-description](/assets/images/Ekran Görüntüsü (44).png)
 
 lets give our out.txt but its too important;
 

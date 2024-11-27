@@ -17,11 +17,11 @@ When it comes to bypassing modern AV/EDR solutions, there are countless techniqu
 
 ### Deploy Cobalt Strike
 
-![img-description](assets\images\WhatsApp Image 2024-11-27 at 01.55.16.jpeg)
+![img-description](/assets/images/WhatsApp Image 2024-11-27 at 01.55.16.jpeg)
 
 then we are in u have to get screen like this.
 
-![img-description](assets\images\WhatsApp Image 2024-11-27 at 02.01.41.jpeg)
+![img-description](/assets/images/WhatsApp Image 2024-11-27 at 02.01.41.jpeg)
 
 ### Add Listener
 
@@ -29,7 +29,7 @@ Lets create our Listener first!! (its too important which protocol u will choose
 
 Cobalt Strike -> Listeners
 
-![img-description](assets\images\WhatsApp Image 2024-11-27 at 02.11.40.jpeg)
+![img-description](/assets/images/WhatsApp Image 2024-11-27 at 02.11.40.jpeg)
 
 ### Create Payload
 
@@ -37,7 +37,7 @@ Lets create paylaod rn under bin.
 
 Payloads -> Windows Stageless Payload -> give ur Listener -> Output : Raw
 
-![img-description](assets\images\WhatsApp Image 2024-11-27 at 02.18.27.jpeg)
+![img-description](/assets/images/WhatsApp Image 2024-11-27 at 02.18.27.jpeg)
 
 then its createad bin file.
 
@@ -133,7 +133,7 @@ So lets deploy rn **Microsoft Visual Studio 2022** and create a  new project...
 
 We have to create New Project and choose Console App which is C++,Windows,Console
 
-![img-description](assets\images\Ekran Görüntüsü (38).png)
+![img-description](/assets/images/Ekran Görüntüsü (38).png)
 
 Tooo important our Application has to debug with Release | x64.
 
@@ -201,7 +201,7 @@ here is our beacon.cpp btw
     }
 
 
-![img-description](assets\images\Ekran Görüntüsü (39).png)
+![img-description](/assets/images/Ekran Görüntüsü (39).png)
 
 ### Sandbox Evasion:
 
@@ -245,19 +245,19 @@ so its okey but there is something different **payload length** i told u we need
 
 here is it we need to change with (307200)
 
-![img-description](assets\images\Ekran Görüntüsü (40).png)
+![img-description](/assets/images/Ekran Görüntüsü (40).png)
 
 alright, our beacon.cpp is ready lets add new customization for our Application.
 
-![img-description](assets\images\Ekran Görüntüsü (41).png)
+![img-description](/assets/images/Ekran Görüntüsü (41).png)
 
 so we create out.txt for our assembly file. lets add masm customization for integrate our assembly script.
 
-![img-description](assets\images\Ekran Görüntüsü (42).png)
+![img-description](/assets/images/Ekran Görüntüsü (42).png)
 
 lets create new files: Right Click on Source Files -> Add -> New Item -> give it name data.asm
 
-![img-description](assets\images\Ekran Görüntüsü (43).png)
+![img-description](/assets/images/Ekran Görüntüsü (43).png)
 
 ### data.asm
 
@@ -267,7 +267,7 @@ lets create new files: Right Click on Source Files -> Add -> New Item -> give it
     RunData ENDP
     END
 
-![img-description](assets\images\Ekran Görüntüsü (44).png)
+![img-description]/(assets/images/Ekran Görüntüsü (44).png)
 
 lets give our out.txt but its too important;
 
@@ -275,7 +275,7 @@ lets give our out.txt but its too important;
     out.txt
     SPACE
 
-![img-description](assets\images\Ekran Görüntüsü (45).png)
+![img-description](/assets/images/Ekran Görüntüsü (45).png)
 
 thats look awesome our application almost ready. lets change something before debug it.
 
@@ -283,19 +283,19 @@ Right Click on Applicaton name and go Properties at the bottom.
 
 First of all we will put C/C++ -> Code Generation -> Runtime Library -> Multi-Threaded(MT) AND Disable Security Check
 
-![img-description](assets\images\Ekran Görüntüsü (47).png)
+![img-description](/assets/images/Ekran Görüntüsü (47).png)
 
 Go Linker -> Debugging -> NO options for Generate Debug Info we really dont wanna do this.
 
-![img-description](assets\images\Ekran Görüntüsü (48).png)
+![img-description](/assets/images/Ekran Görüntüsü (48).png)
 
 Last Step Linker -> Advanced -> deactivate DEP and Randomized Base Adress
 
-![img-description](assets\images\Ekran Görüntüsü (49).png)
+![img-description](/assets/images/Ekran Görüntüsü (49).png)
 
 Lets compile all.
 
-![img-description](assets\images\Ekran Görüntüsü (50).png)
+![img-description](/assets/images/Ekran Görüntüsü (50).png)
 
 
 And ALLL done! we succesfully create Monster-Fucking-Truck exe file. AV/EDR cannot catch it so we can execute it directly. Lets try on cybernetics prolabs from HackTheBox. This lab has really strong AV/EDR.
@@ -334,7 +334,7 @@ i just changed name as OneDriveUptader.exe cauze maybe some AV programs will sus
 
 and it will give us beacon;
 
-![img-description](assets\images\WhatsApp Image 2024-11-27 at 03.37.06.jpeg)
+![img-description](/assets/images/WhatsApp Image 2024-11-27 at 03.37.06.jpeg)
 
 "With the successful acquisition of the beacon, this marks a significant milestone in understanding the core techniques used in modern penetration testing and red team operations—stay tuned for more insights in upcoming posts."
 

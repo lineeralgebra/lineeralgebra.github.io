@@ -2,7 +2,7 @@
 title: HackTheBox-Escape
 date: 2024-12-24 23:20:00 +/-TTTT
 categories: [boxes, red-teaming]
-tags: [DevelopGroup, DnsAdmin]     # TAG names should always be lowercase
+tags: [MSSQL, ESC1]     # TAG names should always be lowercase
 ---
 
 ## SMB-enum

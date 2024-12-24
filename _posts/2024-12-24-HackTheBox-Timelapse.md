@@ -2,7 +2,7 @@
 title: HackTheBox-Timelapse
 date: 2024-12-24 09:42:00 +/-TTTT
 categories: [boxes, red-teaming]
-tags: [DevelopGroup, DnsAdmin]     # TAG names should always be lowercase
+tags: [LAPS]     # TAG names should always be lowercase
 ---
 
 ## SMB-enum

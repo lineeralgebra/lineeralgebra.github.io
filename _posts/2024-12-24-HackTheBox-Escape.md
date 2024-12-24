@@ -202,3 +202,5 @@ OR OR OR
     [*] Trying to retrieve NT hash for 'administrator'
     [*] Got hash for 'administrator@sequel.htb': aad3b435b51404eeaad3b435b51404ee:a52f78e4c751e5f5e17e1e9f3e58f4ee
 
+Video Walwalkthrough
+[WATCH!](https://youtu.be/Ud5HP6xTJok)

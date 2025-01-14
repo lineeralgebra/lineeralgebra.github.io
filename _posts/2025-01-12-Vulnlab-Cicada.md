@@ -99,7 +99,7 @@ files
     drwxrwxrwx+ 2 nobody nogroup 4096 Sep 15 09:18 ..
     ➜  profiles 
 
-![alt text](../assets/images/Screenshot_2025-01-13_19_10_38.png)
+![img-description](/assets/images/Screenshot_2025-01-13_19_10_38.png)
 
 grab users list
 

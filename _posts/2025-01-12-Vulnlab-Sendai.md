@@ -216,7 +216,7 @@ Same what we did at Baby
 
 All Kerberoastable Users fastly ;)
 
-![alt text](<../assets/images/1 (2).png>)
+![img-description](/assets/images/11.png)
 
 ### GetUserSPNs
 
@@ -257,11 +257,11 @@ look at this file
     SMB         10.10.65.237    445    DC               [*] Windows Server 2022 Build 20348 x64 (name:DC) (domain:sendai.vl) (signing:True) (SMBv1:False)
     SMB         10.10.65.237    445    DC               [+] sendai.vl\sqlsvc:SurenessBl<redacted>
 
-![alt text](<../assets/images/2 (3).png>)
+![img-description](/assets/images/23.png)
 
 so lets add urself at ADMSVC its because
 
-![alt text](<../assets/images/3 (1).png>)
+![img-description](/assets/images/31.png)
 
 we have  ReadGMSAPassword
 
@@ -300,7 +300,7 @@ mgtsvc$
 
 there is ca-operators groups so for ADCS attack i chceked which user we need.
 
-![alt text](<../assets/images/4 (1).png>)
+![img-description](/assets/images/41.png)
 
 We have no idea about Clifford so lets try to get him password
 
@@ -312,7 +312,7 @@ https://github.com/itm4n/PrivescCheck
 
 and download .html file and look at here;
 
-![alt text](<../assets/images/5 (1).png>)
+![img-description](/assets/images/51.png)
 
     we got creds
 

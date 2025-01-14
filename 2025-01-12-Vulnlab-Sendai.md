@@ -216,7 +216,7 @@ Same what we did at Baby
 
 All Kerberoastable Users fastly ;)
 
-![img-description](/assets/images/1 (2).png)
+![alt text](<../assets/images/1 (2).png>)
 
 ### GetUserSPNs
 

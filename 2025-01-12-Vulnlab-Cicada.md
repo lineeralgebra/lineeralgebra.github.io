@@ -2,7 +2,7 @@
 title: Vulnlab - Cicada
 date: 2025-01-14 13:30:00 +/-TTTT
 categories: [VulnLab]
-tags: [smbpasswd, GenericAll, ESC4]     # TAG names should always be lowercase
+tags: [kerberoast, ESC8]     # TAG names should always be lowercase
 ---
 
 ![img-description](/assets/images/cicada_slide.png)

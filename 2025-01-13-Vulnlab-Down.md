@@ -26,7 +26,7 @@ tags: [pswm]     # TAG names should always be lowercase
 
 for understand it clearly i will try to dump index.php and analyze source code.
 
-![img-description](/assets/images/2 (1).png)
+![img-description](/assets/images/21.png)
 
 ![img-description](/assets/images/3.png)
 

@@ -128,7 +128,7 @@ now we have READ, WRITE permissions for more shares.
     INFO: Querying computer: dc.baby2.vl
     INFO: Done in 00M 23S
 
-![img-description](/assets/images/1 (1).png)
+![img-description](/assets/images/111.png)
 
 we can see its about login.vbs so we can try to change login.vbs while we have READ,WRITE access
 
@@ -178,7 +178,7 @@ we got our first shell so look at BHCE
 
 ## WriteDACL
 
-![img-description](/assets/images/2 (2).png)
+![img-description](/assets/images/22.png)
 
 Windows Abuse:
 

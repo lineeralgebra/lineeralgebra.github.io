@@ -2,7 +2,7 @@
 title: Vulnlab - Heron
 date: 2025-01-17 02:30:00 +/-TTTT
 categories: [VulnLab]
-tags: [LFI, mysql, dnschef, ForceChangePassword, DLL-Hijacking, Golden-Ticket]     # TAG names should always be lowercase
+tags: [gpp-decyrpt, WriteAccountRestricitons, RBCD]     # TAG names should always be lowercase
 ---
 ![img-description](/assets/images/heron_slide.png)
 

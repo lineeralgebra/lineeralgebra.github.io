@@ -3,6 +3,7 @@ title: Vulnlab - Reflection
 date: 2025-02-06 02:35:00 +/-TTTT
 categories: [VulnLab]
 tags: [ntlmrelay-attack, GenericAll, RBCD]     # TAG names should always be lowercase
+image : /assets/images/reflection_slide.png
 ---
 ![img-description](/assets/images/reflection_slide.png)
 

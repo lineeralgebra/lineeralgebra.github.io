@@ -3,6 +3,7 @@ title: HackTheBox-StreamIO
 date: 2024-12-23 09:42:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [MSSQL, Add-Domain-Group-Member, firefox, LAPS]     # TAG names should always be lowercase
+image : /assets/images/images (1).jpg
 ---
 
 ## WebServerSQLi

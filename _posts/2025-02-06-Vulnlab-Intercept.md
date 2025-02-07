@@ -3,6 +3,7 @@ title: Vulnlab - Intercept
 date: 2025-02-06 02:40:00 +/-TTTT
 categories: [VulnLab]
 tags: [NTLMRELAY, ESC7]     # TAG names should always be lowercase
+image : /assets/images/intercept_slide.png
 ---
 ![img-description](/assets/images/intercept_slide.png)
 

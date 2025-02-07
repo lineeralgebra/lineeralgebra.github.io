@@ -3,6 +3,7 @@ title: Vulnlab - Down
 date: 2025-01-13 02:00:00 +/-TTTT
 categories: [VulnLab]
 tags: [pswm]     # TAG names should always be lowercase
+image : /assets/images/down_slide.png
 ---
 
 ![img-description](/assets/images/down_slide.png)

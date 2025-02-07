@@ -3,6 +3,7 @@ title: Vulnlab - Heron
 date: 2025-01-17 02:30:00 +/-TTTT
 categories: [VulnLab]
 tags: [gpp-decyrpt, WriteAccountRestricitons, RBCD]     # TAG names should always be lowercase
+image : /assets/images/heron_slide.png
 ---
 ![img-description](/assets/images/heron_slide.png)
 

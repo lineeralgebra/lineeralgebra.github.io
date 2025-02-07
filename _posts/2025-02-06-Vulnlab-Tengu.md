@@ -3,6 +3,7 @@ title: Vulnlab - Tengu
 date: 2025-02-06 02:30:00 +/-TTTT
 categories: [VulnLab]
 tags: [gmsa, allowedtodelegate, potato, dpapi]     # TAG names should always be lowercase
+image : /assets/images/tengu_slide.png
 ---
 ![img-description](/assets/images/tengu_slide.png)
 

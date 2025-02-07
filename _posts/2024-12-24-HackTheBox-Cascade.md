@@ -3,6 +3,7 @@ title: HackTheBox-Cascade
 date: 2024-12-24 09:40:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [ldapsearch, VNC, AD-Recycle-Bin]     # TAG names should always be lowercase
+image : /assets/images/images.jpg
 ---
 
 ## SMB-enum

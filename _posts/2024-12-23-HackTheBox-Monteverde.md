@@ -3,6 +3,7 @@ title: HackTheBox-Monteverde
 date: 2024-12-23 09:41:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [azure, cloud]     # TAG names should always be lowercase
+image : /assets/images/EN2dAzBW4AMwIow.jpg
 ---
 
 ## SMB-enum

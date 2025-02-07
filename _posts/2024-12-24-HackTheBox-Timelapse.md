@@ -3,6 +3,7 @@ title: HackTheBox-Timelapse
 date: 2024-12-24 09:42:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [LAPS]     # TAG names should always be lowercase
+image : /assets/images/FOi9TvrXoAUm3zY.jpg
 ---
 
 ## SMB-enum

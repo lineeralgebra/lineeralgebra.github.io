@@ -3,6 +3,7 @@ title: HackTheBox-Sauna
 date: 2024-12-23 09:39:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [username-anarchy, asrep]     # TAG names should always be lowercase
+image : /assets/images/EQplyVRXUAAx0Ij.jpg
 ---
 
 after getting usernames at Website use [username-anarchy](https://github.com/urbanadventurer/username-anarchy) for create users list

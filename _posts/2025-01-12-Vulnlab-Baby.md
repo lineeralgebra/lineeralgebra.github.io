@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 ---
 title: Vulnlab - Baby
 date: 2025-01-12 17:00:00 +/-TTTT
 categories: [VulnLab]
 tags: [smbpasswd, SeBackupPrivilege]     # TAG names should always be lowercase
+image : /assets/images/baby_slide.png
 ---
 
 ![img-description](/assets/images/baby_slide.png)
@@ -240,4 +240,4 @@ and
     impacket-secretsdump -ntds ntds.dit -system system local
 
 😉
->>>>>>> 0d754b90cf249372aaad5089b7ad9344431bd38c
+

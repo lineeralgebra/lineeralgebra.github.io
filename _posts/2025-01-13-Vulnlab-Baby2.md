@@ -3,6 +3,7 @@ title: Vulnlab - Baby2
 date: 2025-01-13 02:30:00 +/-TTTT
 categories: [VulnLab]
 tags: [malicious-vbs, writeDACL, pyGPOAbuse]     # TAG names should always be lowercase
+image : /assets/images/baby2_slide.png
 ---
 ![img-description](/assets/images/baby2_slide.png)
 

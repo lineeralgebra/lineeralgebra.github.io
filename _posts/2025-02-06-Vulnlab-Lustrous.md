@@ -3,6 +3,7 @@ title: Vulnlab - Lustrous
 date: 2025-01-17 02:30:00 +/-TTTT
 categories: [VulnLab]
 tags: [sliver-ticket, BackupOperator]     # TAG names should always be lowercase
+image : /assets/images/lustrous_slide.png
 ---
 ![img-description](/assets/images/lustrous_slide.png)
 

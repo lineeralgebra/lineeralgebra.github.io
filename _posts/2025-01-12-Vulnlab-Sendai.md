@@ -3,6 +3,7 @@ title: Vulnlab - Sendai
 date: 2025-01-14 13:00:00 +/-TTTT
 categories: [VulnLab]
 tags: [smbpasswd, GenericAll, ESC4]     # TAG names should always be lowercase
+image : /assets/images/sendai_slide.png
 ---
 
 ![img-description](/assets/images/sendai_slide.png)

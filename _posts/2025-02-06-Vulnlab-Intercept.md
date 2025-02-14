@@ -5,7 +5,6 @@ categories: [VulnLab]
 tags: [NTLMRELAY, ESC7]     # TAG names should always be lowercase
 image : /assets/images/intercept_slide.png
 ---
-![img-description](/assets/images/intercept_slide.png)
 
 10.10.171.245
 10.10.171.246

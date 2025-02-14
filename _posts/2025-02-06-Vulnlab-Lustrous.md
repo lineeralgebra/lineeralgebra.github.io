@@ -5,7 +5,6 @@ categories: [VulnLab]
 tags: [sliver-ticket, BackupOperator]     # TAG names should always be lowercase
 image : /assets/images/lustrous_slide.png
 ---
-![img-description](/assets/images/lustrous_slide.png)
 
 10.10.194.53
 10.10.194.54

@@ -6,7 +6,6 @@ tags: [pswm]     # TAG names should always be lowercase
 image : /assets/images/down_slide.png
 ---
 
-![img-description](/assets/images/down_slide.png)
 
 ## Enum
     22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)

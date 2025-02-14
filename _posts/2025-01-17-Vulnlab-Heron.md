@@ -5,7 +5,6 @@ categories: [VulnLab]
 tags: [gpp-decyrpt, WriteAccountRestricitons, RBCD]     # TAG names should always be lowercase
 image : /assets/images/heron_slide.png
 ---
-![img-description](/assets/images/heron_slide.png)
 
 its starting with 
 pentest:Heron123!

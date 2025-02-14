@@ -6,7 +6,6 @@ tags: [kerberoast, ESC8]     # TAG names should always be lowercase
 image : /assets/images/cicada_slide.png
 ---
 
-![img-description](/assets/images/cicada_slide.png)
 
 ## nmap
 

@@ -6,7 +6,6 @@ tags: [smbpasswd, GenericAll, ESC4]     # TAG names should always be lowercase
 image : /assets/images/sendai_slide.png
 ---
 
-![img-description](/assets/images/sendai_slide.png)
 
 ## enum
 

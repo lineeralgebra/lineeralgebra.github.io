@@ -5,7 +5,6 @@ categories: [VulnLab]
 tags: [malicious-vbs, writeDACL, pyGPOAbuse]     # TAG names should always be lowercase
 image : /assets/images/baby2_slide.png
 ---
-![img-description](/assets/images/baby2_slide.png)
 
 ## enum
 

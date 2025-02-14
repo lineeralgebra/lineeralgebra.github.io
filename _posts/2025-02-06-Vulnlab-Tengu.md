@@ -5,7 +5,6 @@ categories: [VulnLab]
 tags: [gmsa, allowedtodelegate, potato, dpapi]     # TAG names should always be lowercase
 image : /assets/images/tengu_slide.png
 ---
-![img-description](/assets/images/tengu_slide.png)
 
 10.10.158.53
 10.10.158.54

@@ -5,7 +5,6 @@ categories: [VulnLab]
 tags: [ntlmrelay-attack, GenericAll, RBCD]     # TAG names should always be lowercase
 image : /assets/images/reflection_slide.png
 ---
-![img-description](/assets/images/reflection_slide.png)
 
 10.10.129.245
 10.10.129.246

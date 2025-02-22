@@ -2,7 +2,7 @@
 title: Vulnlab - Shibuya
 date: 2025-02-22 02:30:00 +/-TTTT
 categories: [VulnLab]
-tags: [gmsa, allowedtodelegate, potato, dpapi]     # TAG names should always be lowercase
+tags: [KrbRelay, ESC1]     # TAG names should always be lowercase
 image : /assets/images/shibuya_slide.png
 ---
 10.10.100.216
@@ -164,7 +164,7 @@ lets change password for Simon.Watson cause its not great to use hash afwd
 
 NewPassword123!
 
-[smbclient.py](http://smbclient.py) for change password
+smbclient.py for change password
 
 ```
 ➜  Shibuya smbclient.py -hashes :5d8c3d1a20bd63f60f469f6763ca0d50 shibuya.vl/Simon.Watson@shibuya.vl

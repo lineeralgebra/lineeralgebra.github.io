@@ -64,8 +64,11 @@ LDAP        10.10.85.108    389    DC1              Done in 00M 13S
 LDAP        10.10.85.108    389    DC1              Compressing output into /root/.nxc/logs/DC1_10.10.85.108_2025-03-06_074544_bloodhound.zip
 ➜  delegate 
 ```
+
 for full users list
-```➜  bloodhound cat DC1_10.10.85.108_2025-03-06_074544_users.json | jq -r '.data[].Properties.samaccountname' 
+
+```
+➜  bloodhound cat DC1_10.10.85.108_2025-03-06_074544_users.json | jq -r '.data[].Properties.samaccountname' 
 null
 N.Thompson
 b.Brown
@@ -76,6 +79,7 @@ Administrator
 A.Briggs
 Guest
 ```
+
 ## GenericWrite
 
 ![!\[alt text\](../assets/images/Screenshot 2025-03-06 at 07-50-01 BloodHound.png)

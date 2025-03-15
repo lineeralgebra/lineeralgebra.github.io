@@ -1,6 +1,6 @@
 ---
 title: HackTheBox - Certified
-date: 2025-03-13 02:30:00 +/-TTTT
+date: 2025-03-15 02:35:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [ESC9]     # TAG names should always be lowercase
 image : /assets/images/Certified.png

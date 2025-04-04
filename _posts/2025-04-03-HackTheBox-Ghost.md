@@ -102,7 +102,7 @@ alright first potentally username
 
 ![alt text](<../assets/images/Screenshot 2025-03-10 at 14-57-58 Embarking on the Supernatural Journey Welcome to Ghost!(1).png>)
 
-username: [**`Kathryn Holland`**](http://ghost.htb:8008/author/kathryn/)
+username: [**`Kathryn Holland`**]
 
 i also found another sobdomain here which is interesting
 

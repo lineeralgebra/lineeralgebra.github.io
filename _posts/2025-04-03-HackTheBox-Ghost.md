@@ -2,7 +2,7 @@
 title: HackTheBox - Ghost
 date: 2025-04-03 02:30:00 +/-TTTT
 categories: [boxes, red-teaming]
-tags: [Cross Session Relay]     # TAG names should always be lowercase
+tags: [ldap-injection, ADIDNS poisoning, ADFSdump, GOLDEN-SAML, Golden Ticket]     # TAG names should always be lowercase
 image : /assets/images/GSOFFaoXwAMx4T5.jpeg
 ---
 Ghost is the one of the my fav box so far it was great.

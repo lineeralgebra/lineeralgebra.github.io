@@ -359,7 +359,7 @@ objectCategory                    : CN=Person,CN=Schema,CN=Configuration,DC=vint
 msDS-SupportedEncryptionTypes     :
 ```
 
-Lets run [GetNPUsers.py](http://GetNPUsers.py) for grab kerberoast hash
+Lets run GetNPUsers.py for grab kerberoast hash
 
 ![alt text](../assets/images/vintage15.png)
 and we got it lets crack it.

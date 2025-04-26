@@ -7,6 +7,11 @@ image : /assets/images/GdfKjkCXkAAaM4V.jpg
 ---
 Vintage is really great machine. Geiseric quality u know im saying.
 
+Before start!!!!!!
+
+```sh
+Make sure the cleanup script is not cleaning ur scripts. Especially on svc_sql part
+```
 ## Entry
 
 ```bash

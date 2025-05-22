@@ -2,7 +2,7 @@
 title: HackTheBox - EscapeTwo
 date: 2025-04-25 02:30:00 +/-TTTT
 categories: [boxes, red-teaming]
-tags: [enableaccount,dpapi,RBCD]     # TAG names should always be lowercase
+tags: [WriteOwner,ESC4]     # TAG names should always be lowercase
 image : /assets/images/Gg3WdJaWMAMrniN.jpg
 ---
 ## Entry

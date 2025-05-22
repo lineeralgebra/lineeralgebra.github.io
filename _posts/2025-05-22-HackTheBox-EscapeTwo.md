@@ -1,6 +1,6 @@
 ---
 title: HackTheBox - EscapeTwo
-date: 2025-04-25 02:30:00 +/-TTTT
+date: 2025-05-22 02:30:00 +/-TTTT
 categories: [boxes, red-teaming]
 tags: [WriteOwner,ESC4]     # TAG names should always be lowercase
 image : /assets/images/Gg3WdJaWMAMrniN.jpg

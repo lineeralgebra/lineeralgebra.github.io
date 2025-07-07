@@ -95,8 +95,6 @@ i will look for how i can bypass this or how i can activate.
 
 and its redirect us here http://freelancer.htb/accounts/recovery/
 
-![Screenshot 2025-07-06 at 19-03-09 Freelancer Account Recovery.png](attachment:22f75722-48f2-46ec-9543-d6b88c6c26a9:Screenshot_2025-07-06_at_19-03-09_Freelancer_Account_Recovery.png)
-
 lets try to activate our account.
 
 ![alt text](../assets/images/freelancer6.png)

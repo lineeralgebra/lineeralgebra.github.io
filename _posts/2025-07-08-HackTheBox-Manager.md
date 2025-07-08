@@ -118,7 +118,7 @@ okey lets check we have only `Guest` access but i remember we have webserve at p
 
 ![alt text](../assets/images/manager4.png)
 
-we can download it directly. [`http://10.10.11.236/website-backup-27-07-23-old.zip`](http://10.10.11.236/website-backup-27-07-23-old.zip)
+we can download it directly. 
 
 ```bash
 ➜  manager cp /home/elliot/Downloads/website-backup-27-07-23-old.zip .

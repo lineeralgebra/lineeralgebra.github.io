@@ -9,7 +9,7 @@ image : assets/images/21240942d301a96e80574353a96b9003.webp
 Lets start with nmap scan
 
 ### nmap
-
+a
 ```bash
 53/tcp   open  domain        syn-ack ttl 127 Simple DNS Plus
 80/tcp   open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0

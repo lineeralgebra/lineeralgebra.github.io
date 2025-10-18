@@ -1093,7 +1093,7 @@ ebelford@drip:~$ ls -la /usr/bin/ksu
 
 ---
 
-### **Attack Vector: UPN Spoofing via Broken Mixed-Vendor Kerberos**
+**Attack Vector: UPN Spoofing via Broken Mixed-Vendor Kerberos**
 
 **Core Issue:** **AD (Microsoft) ≠ Linux (Unix) Kerberos validation**
 
@@ -1172,7 +1172,7 @@ getTGT.py darkcorp.htb/angela.w.adm -hashes :957246c8137069bca672dc6aa0af7c7a -p
 scp angela.w.adm.ccache ebelford@drip.htb:/tmp/
 ```
 
-### **Phase 3: Linux Root via KSU**
+**Phase 3: Linux Root via KSU**
 
 **Victim Execution:**
 
@@ -1198,7 +1198,7 @@ root@drip:/tmp#
 
 ---
 
-### **Phase 4: SSSD Cache → TAYLOR.B.ADM Hash Extraction**
+**Phase 4: SSSD Cache → TAYLOR.B.ADM Hash Extraction**
 
 As **`root@drip`**, we targeted **SSSD cache databases** (`/var/lib/sss/db`):
 

@@ -64,7 +64,7 @@ Lets add on /etc/hosts file and check it whats going on here.
 
 ![alt text](../assets/images/darkcorp2.png)
 
-we dont have any creds yet but lets see if we can create [`http://drip.htb/register`](http://drip.htb/register) 
+we dont have any creds yet but lets see if we can create `http://drip.htb/register` 
 
 ![alt text](../assets/images/darkcorp3.png)
 
@@ -632,7 +632,7 @@ Yeah but we have to analyze it on Burp Suite right? for authentcation it we will
 
 ![alt text](../assets/images/darkcorp19.png)
 
-and we are in!!! [`http://172.16.20.2:5000/check`](http://172.16.20.2:5000/check) was really interesting.
+and we are in!!! `http://172.16.20.2:5000/check` was really interesting.
 
 ![alt text](../assets/images/darkcorp20.png)
 
@@ -1325,7 +1325,7 @@ SMB         172.16.20.1     445    DC-01            WEB-01$:20601:aad3b435b51404
 | --- | --- | --- | --- | --- |
 | postgresql | 2Qa2SsBkQvsc | psql | .env file |  |
 | ebelford | ThePlague61780 | ssh | .sql file | ssh access |
-| victor.r | victor1gustavo@# | [172.16.20.2:5000](http://172.16.20.2:5000/) |  |  |
+| victor.r | victor1gustavo@# | 5000 port web server |  |  |
 | web-01$ | 8f33c7fc7ff515c1f358e488fbb8b675 | web01 | Relay |  |
 | Administrator | 88d84ec08dad123eb04a060a74053f21 | web01 | secretsdump | Local Admin |
 | john.w | Pack_Beneath_Solid9! |  |  |  |

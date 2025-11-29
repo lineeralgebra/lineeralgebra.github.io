@@ -146,7 +146,7 @@ ________________________________________________
 6463                    [Status: 200, Size: 6365, Words: 2552, Lines: 222, Duration: 159ms]
 ```
 
-for example at [`http://file.era.htb/download.php?id=54`](http://file.era.htb/download.php?id=54)
+for example at `http://file.era.htb/download.php?id=54`
 
 ![alt text](../assets/images/era7.png)
 
